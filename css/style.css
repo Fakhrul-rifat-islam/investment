@@ -1,0 +1,117 @@
+body{}
+.container{
+    
+    display: flex;
+    background-color: black;
+}
+.child-1{
+    width: 50%;
+}
+.child-2{
+    text-align: center;
+    width: 50%;
+}
+.child-2 ul{}
+.child-2 ul li{
+    list-style: none;
+    display: inline;
+}
+.child-2 ul li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.logo{
+    width: 260px;
+
+}
+.second{
+    text-align: center;
+    background-image: url(../image/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 400px;
+    padding-top: 50px;
+}
+h1{
+    padding: 20px;
+}
+h2{
+    font-size: 50px;
+}
+.third{
+    text-align: center;
+}
+h3{
+    font-size: 40px;
+}
+.daddy{
+    width: 100%;
+}
+.mini-parent{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.mini-parent div{
+    border: solid;
+    margin: 10px;
+    padding: 20px;
+    background-color: aqua;
+}
+.local{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.local div{
+    padding: 20px;
+    border: solid;
+    margin: 10px;
+    background-color: aqua;
+}
+.not-local{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.not-local div{
+    padding: 20px;
+    border: solid;
+    margin: 10px;
+    background-color: aqua;
+}
+.about-us{
+    padding-top: 30px;
+    text-align: center;
+    
+    border: solid;
+  
+    width: 100%;
+    background-color:antiquewhite;
+}
+.about-us h6{
+    font-size: 50px;
+}
+.about-us img{
+    width: 300px;
+    height: 300px;
+    
+}
+footer{
+    text-align: center;
+    color: antiquewhite;
+    background-color: black;
+}
+footer h5{
+    font-size: 20px;
+}
+footer ul li{
+    list-style: none;
+    padding: 20px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
